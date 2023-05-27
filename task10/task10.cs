@@ -1,9 +1,9 @@
-﻿int number = ReadInt("Введите трехзначное число: ");
+﻿int number = ReadInt("Enter a three-digit number: ");
 int amount = number.ToString().Length;
 
 if (amount < 3 || amount > 3)
 {
-    Console.WriteLine("Вы ввели не трехзначное число");
+    Console.WriteLine("You entered a non-three-digit number");
 }
 else
 {
